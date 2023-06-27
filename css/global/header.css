@@ -36,12 +36,12 @@
     font-size: 1.125rem;
 }
 #toggle{
-   width: 120px;
+    width: 90px;
    height: 20px;
-    display: flex;
-    position: absolute;
+   display: flex;
+   position: absolute;
     top: .80rem;
-    right: -4rem;
+    right: .50rem;
     z-index: 2222;
     
 }
