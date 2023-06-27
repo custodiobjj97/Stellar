@@ -1,0 +1,60 @@
+.aboutUs{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.aboutUs .p-2{
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.group-icons{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.icon{
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.icon i{
+    font-size: 4rem;
+}
+
+.icon h6{
+    font-size: 2rem;
+}
+
+.icon p{
+    font-size: 1.2rem;
+}
+
+.icon:nth-child(1){
+    background-color: #8D86C9;
+}
+.icon:nth-child(2){
+    background-color: #FF47C8;
+}
+.icon:nth-child(3){
+    background-color: #9067C6;
+}
+.icon:nth-child(4){
+    background-color: #439A86;
+}
+.icon:nth-child(5){
+    background-color: #6DD6DA;
+}
+
+
+
+@media (min-width: 920px){
+    .group-icons{
+        grid-template-columns: repeat(5,1fr);
+        padding: 1rem;
+    }
+
+    
+}
